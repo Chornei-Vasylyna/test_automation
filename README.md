@@ -9,11 +9,11 @@
 ```
 qa-automation/
 ├── src/
-│   └── temperature.ts        # приклад із показової частини
-│
+│   ├── temperature.ts        # приклад із показової частини
+│   └── simple-interest.ts    # модуль індивідуального завдання (варіант 10)
 ├── tests/
-│   └── temperature.test.ts
-│
+│   ├── temperature.test.ts
+│   └── simple-interest.test.ts
 ├── .gitignore
 ├── .prettierrc
 ├── eslint.config.mjs
